@@ -4,9 +4,9 @@ import { MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Alejandro Martín", href: "#", current: true },
-  { name: "Works", href: "#", current: false },
-  { name: "Posts", href: "#", current: false },
-  { name: "Source", href: "#", current: false },
+  { name: "About", href: "#hola", current: false },
+  { name: "Works", href: "#adios", current: false },
+  { name: "Source", href: "https://github.com/Networkzz/portfolio-react-tailwind",current: false,},
 ];
 
 function classNames(...classes) {
@@ -32,7 +32,10 @@ export default function Nav() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <CodeIcon className="block h-6 w-6 text-white" aria-hidden="true"/>
+                  <CodeIcon
+                    className="block h-6 w-6 text-white"
+                    aria-hidden="true"
+                  />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -42,11 +45,10 @@ export default function Nav() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            ? "bg-gray-900 text-white" /*Current item*/
+                            : "text-gray-300 hover:bg-gray-700 hover:text-white" /*Not current item*/,
                           "px-3 py-2 rounded-md text-sm font-medium"
                         )}
-                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </a>
@@ -54,15 +56,9 @@ export default function Nav() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                ></button>
-              </div>
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"></div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
@@ -76,7 +72,6 @@ export default function Nav() {
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
-                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>

@@ -1,9 +1,14 @@
-import './App.css';
-import Nav from './components/NavBar/Nav';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import About from './components/About';
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-700">
       <Nav/>
+      <Header/>
+      <About/>
+      <Footer/>
     </div>
   );
 }
