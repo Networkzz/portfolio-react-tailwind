@@ -4,7 +4,7 @@ import { MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Alejandro Martín", href: "#", current: true },
-  { name: "About", href: "#hola", current: false },
+  { name: "About", href: "#about", current: false },
   { name: "Works", href: "#adios", current: false },
   { name: "Source", href: "https://github.com/Networkzz/portfolio-react-tailwind",current: false,},
 ];
