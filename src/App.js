@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './components/About/About';
 import Bio from  './components/Bio'
 import Works from './components/Works';
-import WorksV2 from './components/WorksV2';
+
 function App() {
   return (
     <div className="bg-gray-700">
@@ -13,7 +13,6 @@ function App() {
       <About/>
       <Bio/>
       <Works/>
-      <WorksV2/>
       <Footer/>
     </div>
   );
