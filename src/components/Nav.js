@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 

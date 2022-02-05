@@ -26,7 +26,7 @@ function About() {
           About me
         </h2>
         <p className="">
-          Alejandro is a front-end developer based in Spain who was a{" "}
+          Alejandro is a front-end developer from Spain who was a{" "}
           <a
             className="text-pink-400 hover:text-pink-300"
             href="https://liquipedia.net/overwatch/Networkz"
