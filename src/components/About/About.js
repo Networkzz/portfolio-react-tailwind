@@ -27,7 +27,7 @@ function About() {
         </h2>
         <p>
           Alejandro is a front-end developer from Spain who was a professional
-          Overwatch esports player , an english teacher in China and now a
+          Overwatch esports player, an english teacher in China and now a
           full-time web developer that love building software and working in a
           team.
         </p>
