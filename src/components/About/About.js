@@ -1,5 +1,5 @@
 import React from "react";
-import Cvphoto from "../../assets/cv-photo.jpeg";
+import Cvphoto from "../../assets/cv-photo.webp";
 import ButtonCV from "./ButtonCV";
 
 function About() {

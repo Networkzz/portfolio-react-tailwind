@@ -29,7 +29,7 @@ const social = [
 const listSocial = social.map((item) => (
   <li key={item.name}>
     <a
-      className="w-42 flex-1 flex flex-row mt-2 hover:text-[#3fffef] p-2 rounded-lg font-bold text-lg text-[#41d3c7] leading-4"
+      className="m-auto inline-flex text-center mt-2 hover:text-[#3fffef] font-bold text-lg text-[#41d3c7] leading-4"
       key={item.name}
       href={item.href}
       target={item.target}
