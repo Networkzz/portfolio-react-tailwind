@@ -1,11 +1,12 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
-
+import { FaGithub } from "react-icons/fa";
 const navigation = [
   { name: "Alejandro Martín", href: "#", current: true },
   { name: "About", href: "#about", current: false },
-  { name: "Works", href: "#adios", current: false },
-  { name: "Source", href: "https://github.com/Networkzz/portfolio-react-tailwind",current: false,},
+  { name: "Bio", href: "#bio", current: false },
+  { name: "Works", href: "#works", current: false },
+  { name: "Source", href: "https://github.com/Networkzz/portfolio-react-tailwind",current: false, target:"_blank", icon: <FaGithub className="inline-flex ml-1 mb-0.5"/>},
 ];
 
 function classNames(...classes) {
@@ -42,6 +43,7 @@ export default function Nav() {
                       <a
                         key={item.name}
                         href={item.href}
+                        target={item.target}
                         className={classNames(
                           item.current
                             ? "bg-gray-900 text-white" /*Current item*/
@@ -49,7 +51,7 @@ export default function Nav() {
                           "px-3 py-2 rounded-md text-sm font-medium"
                         )}
                       >
-                        {item.name}
+                        {item.name}{item.icon}
                       </a>
                     ))}
                   </div>

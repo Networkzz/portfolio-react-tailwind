@@ -4,7 +4,7 @@ function Bio() {
   return <div className="w-2/6 m-auto text-white pb-4">
   <h2
     className="text-xl underline underline-offset-4 decoration-gray-400 font-fontName pb-4"
-    id="about"
+    id="bio"
   >
     Bio
   </h2>

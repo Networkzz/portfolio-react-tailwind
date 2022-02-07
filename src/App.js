@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About/About';
 import Bio from  './components/Bio'
 import Works from './components/Works';
+import Socials from './components/Socials';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Bio/>
       <Works/>
+      <Socials/>
       <Footer/>
     </div>
   );
