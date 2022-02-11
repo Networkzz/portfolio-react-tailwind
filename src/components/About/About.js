@@ -1,5 +1,5 @@
 import React from "react";
-import Cvphoto from "../../assets/cv-photo.jpeg";
+import Cvphoto from "../../assets/cv-photo.webp";
 import ButtonCV from "./ButtonCV";
 
 function About() {
@@ -25,19 +25,14 @@ function About() {
         >
           About me
         </h2>
-        <p className="">
-          Alejandro is a front-end developer from Spain who was a{" "}
-          <a
-            className="text-pink-400 hover:text-pink-300"
-            href="https://liquipedia.net/overwatch/Networkz"
-          >
-            professional Overwatch esports player
-          </a>
-          , an english teacher in China and now a full-time web developer that
-          love building software and working in a team.
+        <p>
+          Alejandro is a front-end developer from Spain who was a professional
+          Overwatch esports player, an english teacher in China and now a
+          full-time web developer that love building software and working in a
+          team.
         </p>
       </div>
-      <ButtonCV/>
+      <ButtonCV />
     </div>
   );
 }
