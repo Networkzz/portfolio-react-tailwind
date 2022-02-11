@@ -11,8 +11,7 @@ fetch(apiURL)
   }) 
 function BitcoinPrice() {
   return (
-    <div>{bitcoinPrice}</div>
-    
+    <span>{bitcoinPrice + "$"}</span>
   )
 }
 
