@@ -61,7 +61,7 @@ const secondElementWork = workAnchorCryptoNet.map((props) => (
     />
   </a>
 ))
-function Works() {
+function Portofolio() {
   return (
     <div className="w-2/6 m-auto text-white">
       <h2
@@ -90,4 +90,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Portofolio;

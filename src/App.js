@@ -3,9 +3,10 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import About from './components/About/About';
 import Bio from  './components/Bio'
-import Works from './components/Work/Works';
 import Socials from './components/Socials';
 import BitcoinContainer from './components/Interactive/BitcoinContainer';
+import Portofolio from './components/Portfolio/Portofolio';
+import TodoList from './components/Utility/TodoList';
 function App() {
   return (
     <div className="bg-gray-700">
@@ -14,8 +15,9 @@ function App() {
       <Header/>
       <About/>
       <Bio/>
-      <Works/>
+      <Portofolio/>
       <Socials/>
+      <TodoList/>
       <Footer/>
     </div>
   );
