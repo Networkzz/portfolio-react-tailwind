@@ -1,6 +1,6 @@
 # Networkz's Portfolio
 
-https://portfolio-react-tailwind-iota.vercel.app/
+https://networkz.vercel.app/
 
 ## Stack
 
