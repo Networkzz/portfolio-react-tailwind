@@ -6,6 +6,8 @@ const navigation = [
   { name: "About", href: "#about", current: false },
   { name: "Bio", href: "#bio", current: false },
   { name: "Works", href: "#works", current: false },
+  { name: "Socials", href: "#social", current: false },
+  { name: "Utility", href: "#utility", current: false },
   { name: "Source", href: "https://github.com/Networkzz/portfolio-react-tailwind",current: false, target:"_blank", icon: <FaGithub className="inline-flex ml-1 mb-0.5"/>},
 ];
 

@@ -27,7 +27,7 @@ const workAnchorCryptoNet = [
 const titleWork = ["CryptoQuizz", "CryptoNet"];
 const paragraphWork = [
   "A quizz website about cryptocurrency in spanish.",
-  "A dashboard website to check cryptocurrency prices.",
+  "A dashboard website to check cryptocurrency prices."
 ];
 const firstElementWork = workAnchorCryptoQuizz.map((props) => (
   <a

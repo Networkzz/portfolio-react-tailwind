@@ -6,6 +6,7 @@ import Bio from  './components/Bio'
 import Socials from './components/Socials';
 import BitcoinContainer from './components/Interactive/BitcoinContainer';
 import Portofolio from './components/Portfolio/Portofolio';
+import Portofolio2 from './components/Portfolio/Portofolio2';
 import TodoList from './components/Utility/TodoList';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Bio/>
       <Portofolio/>
+      <Portofolio2/>
       <Socials/>
       <TodoList/>
       <Footer/>
