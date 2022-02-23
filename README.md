@@ -8,6 +8,7 @@ https://networkz.vercel.app/
 - [Headlessui](https://headlessui.dev/) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [Heroicicons](https://heroicons.com/) + [React-icons](https://react-icons.github.io/react-icons/) - Beautiful hand-crafted SVG icons,by the makers of Tailwind CSS.
 - [Sass](https://sass-lang.com/) - The most mature, stable, and powerful professional grade CSS extension language in the world.
+- [Vercel](https://vercel.com/) - Vercel combines the best developer experience with an obsessive focus on end-user performance.
 
 ## Project structure
 
