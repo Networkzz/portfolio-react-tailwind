@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Bitcoin from './Bitcoin';
+//ApiRequest to CoinGecko API to obtain Bitcoin current price.
 const ApiRequest = () => {
   const [bitcoin, setBitcoin] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -18,6 +19,7 @@ const ApiRequest = () => {
         console.log(error);
       });
   };
+  //useEffect to re-render and update price of bitcoin, also persist data after reloading website.
   useEffect(() => {
     fetchData();
   }, []);

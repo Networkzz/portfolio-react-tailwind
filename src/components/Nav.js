@@ -1,6 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon, CodeIcon } from "@heroicons/react/outline";
 import { FaGithub } from "react-icons/fa";
+//Defining content for navigation bar.
 const navigation = [
   { name: "Alejandro Martín", href: "#", current: true },
   { name: "About", href: "#about", current: false },

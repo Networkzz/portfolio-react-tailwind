@@ -1,7 +1,7 @@
 import React from "react";
 import Cvphoto from "../../assets/cv-photo.webp";
 import ButtonCV from "./ButtonCV";
-
+//Defining content for About component
 function About() {
   return (
     <div className="text-white">

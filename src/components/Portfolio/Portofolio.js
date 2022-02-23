@@ -3,7 +3,7 @@ import CryptoQuizz from "../../assets/cryptoquizz.webp";
 import CryptoNet from "../../assets/cryptonet.webp"
 import WorkButtonCryptoNet from "./WorkButtonCryptoNet";
 import WorkButtonCryptoQuizz from "./WorkButtonCryptoQuizz"
-
+//Defining content for Portfolio component
 const workAnchorCryptoQuizz = [
   {
     href: "http://cryptoquizz.000webhostapp.com/index.html",

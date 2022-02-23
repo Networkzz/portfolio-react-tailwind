@@ -1,6 +1,7 @@
 import React from "react";
 import VallaxVideogame from "../../assets/VallaxVideogame.webp"
 import { FaGithub } from "react-icons/fa";
+//Defining content for Portfolio 2 component
 const workAnchorVallax = [
   {
     href: "https://vallax-videogame.vercel.app/",
@@ -41,6 +42,7 @@ const sourceAnchorVallax = [
     icon: <FaGithub className="text-xl mt-0.5 ml-1" />,
   },
 ];
+//Defining content for button Source in Vallax Videogame. 
 const thirdElementWorkSource = sourceAnchorVallax.map((props) => (
   <a
     key={props.href}

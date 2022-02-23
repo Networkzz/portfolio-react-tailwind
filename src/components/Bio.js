@@ -1,5 +1,5 @@
 import React from "react";
-
+//Defining content for Bio component
 const bioText = [
   { 
     year: "1999",
