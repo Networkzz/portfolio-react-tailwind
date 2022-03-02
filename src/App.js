@@ -12,14 +12,12 @@ function App() {
   return (
     <div className="bg-gray-700">
       <Nav/>
-      <BitcoinContainer/>
       <Header/>
       <About/>
       <Bio/>
       <Portofolio/>
       <Portofolio2/>
       <Socials/>
-      <TodoList/>
       <Footer/>
     </div>
   );
